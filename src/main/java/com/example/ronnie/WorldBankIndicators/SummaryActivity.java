@@ -183,7 +183,7 @@ public class SummaryActivity extends AppCompatActivity {
                    if(value != "--") {
 
                        HashMap<String, String> map = new HashMap<String, String>();
-                       map.put("indicator", indicator);
+                       map.put("indicator", indicator.toUpperCase());
                        map.put("year", year);
                        map.put("value", value);
                        map.put("country", country);

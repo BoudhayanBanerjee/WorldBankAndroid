@@ -15,14 +15,15 @@
             android:layout_width="wrap_content"
             android:layout_height="35dp"
             android:id="@+id/textViewIndicator"
-            android:textColor="#607D8B"
+            android:textColor="#b0607d8b"
             android:text="Indicator"
-            android:textSize="15dp"
+            android:textSize="11dp"
             android:layout_weight="1"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="5dp"
-            android:gravity="left|center_vertical" />
+            android:gravity="left|center_vertical"
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
